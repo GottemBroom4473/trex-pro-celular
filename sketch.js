@@ -36,7 +36,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  trex = createSprite(50,height-20,20,50);
+  trex = createSprite(50,height-60,20,50);
   
   trex.addAnimation("running", trex_correndo);
   trex.addAnimation("collided", trex_colidiu);
@@ -59,7 +59,7 @@ function setup() {
   reiniciar.visible = false;
   
   soloInvisivel = createSprite(width/4,height-10, width,10);
-  soloInvisivel.visible = false;
+  soloInvisivel.visible = true;
   
   grupoDeNuvens = new Group();
   grupoDeObstaculos = new Group();
