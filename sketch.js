@@ -59,7 +59,7 @@ function setup() {
   reiniciar.visible = false;
   
   soloInvisivel = createSprite(50,height-20,120,10);
-  soloInvisivel.visible = false;
+  soloInvisivel.visible = true;
   
   grupoDeNuvens = new Group();
   grupoDeObstaculos = new Group();
